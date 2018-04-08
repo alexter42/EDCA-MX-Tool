@@ -6,7 +6,7 @@ export default function() {
   let d = new Date();
   const n = d.toISOString();
   let copy = Object.assign({}, ...file);
-  copy.date = '2015-09-30T12:09:30-06:00';
+  copy.date = n;
   copy.initiationType = 'ppp';
   copy.tag = ['planning'];
   copy.language = 'es';
